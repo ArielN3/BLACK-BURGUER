@@ -79,7 +79,76 @@ const menuData = {
                 image: 'https://images.pexels.com/photos/2741461/pexels-photo-2741461.jpeg'
             }
         ]
+    },
+    bebidas: {
+        title: 'Bebidas',
+        items: [
+            {
+                id: 'refri-lata-310',
+                name: 'REFRIGERANTE LATA',
+                description: 'Refrigerante em lata de 310 ml (diversos sabores)',
+                price: 5.00,
+                image: 'https://paroquiasantaclaradf.com.br/wp-content/uploads/2021/07/Design-sem-nome-10.png'
+            },
+            {
+                id: 'guarana-268',
+                name: 'GUARANÁ ANTARCTICA',
+                description: 'Guaraná Antarctica garrafinha de 268 ml',
+                price: 4.50,
+                image: 'https://i.ibb.co/SwzZk6k5/image.png" alt="image"'
+            },
+            {
+                id: 'guarana-200',
+                name: 'GUARANÁ ANTARCTICA',
+                description: 'Guaraná Antarctica em garrafinha de 200 ml',
+                price: 3.00,
+                image: 'https://i.ibb.co/SwzZk6k5/image.png" alt="image"'
+            },
+            {
+                id: 'fanta-600',
+                name: 'FANTA LARANJA E UVA',
+                description: 'Fanta laranja ou uva em garrafa PET de 600 ml',
+                price: 6.00,
+                image: 'https://logonews.fr/wp-content/uploads/2023/04/fanta_thumbnail_logonews.jpg" alt="image"'
+            },
+            {
+                id: 'guaramix-300',
+                name: 'GUARAMIX MIX PET',
+                description: 'Guaramix PET 300 ml',
+                price: 3.50,
+                image: 'https://i.ibb.co/FL6V2P5c/image.png" alt="image"'
+            },
+            {
+                id: 'guaramix-copo-290',
+                name: 'GUARAMIX COPO',
+                description: 'Guaramix servido em copo de 290 ml',
+                price: 3.50,
+                image: 'https://i.ibb.co/FL6V2P5c/image.png" alt="image"'
+            },
+            {
+                id: 'coca-pet-600',
+                name: 'COCA-COLA PET',
+                description: 'Coca-Cola em garrafa PET de 600 ml',
+                price: 7.90,
+                image: 'https://pbs.twimg.com/profile_images/1744786283531059200/lrggJynL_400x400.jpg" alt="image"'
+            },
+            {
+                id: 'coca-ns-vidro',
+                name: 'COCA-COLA Ns/vidro',
+                description: 'Coca-Cola versão Ns em garrafa de vidro',
+                price: 3.50,
+                image: 'https://pbs.twimg.com/profile_images/1744786283531059200/lrggJynL_400x400.jpg" alt="image"'
+            },
+            {
+                id: 'coca-ks-vidro',
+                name: 'COCA-COLA Ks/vidro',
+                description: 'Coca-Cola versão Ks em garrafa de vidro',
+                price: 4.00,
+                image: 'https://pbs.twimg.com/profile_images/1744786283531059200/lrggJynL_400x400.jpg"'
+            }
+        ]
     }
+    
 };
 
 // Mobile menu toggle
