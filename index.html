@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Burguer | Cardápio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="logo.png" alt="logo" class="logo">
+            
+            <nav class="nav">
+                <button class="menu-button" id="menuButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><button class="dropdown-btn" onclick="scrollToSection('hamburgueres')">Hambúrgueres</button></li>
+                    <li><button class="dropdown-btn" onclick="scrollToSection('acompanhamentos')">Acompanhamentos</button></li>
+                    <li><a href="https://wa.me/556195668696" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <h1 class="main-title">Black Burguer</h1>
+            <p class="main-description">Os melhores hambúrgueres artesanais da cidade!</p>
+
+            <section id="hamburgueres" class="menu-section">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h2>Hambúrgueres<p id="obs">Imagens Ilustrativas</p></h2>
+                    
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content">
+                    <div class="menu-grid"></div>
+                </div>
+            </section>
+
+            <section id="acompanhamentos" class="menu-section">
+                <div class="section-header" onclick="toggleSection(this)">
+                    <h2>Acompanhamentos<p id="obs">Imagens Ilustrativas</p></h2>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="section-content">
+                    <div class="menu-grid"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2>Black Burguer</h2>
+                    <p>O melhor hambúrguer artesanal</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" class="social-button whatsapp">WhatsApp</a>
+                    <!-- Link to Instagram profile
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-button instagram">Instagram</a> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Black Burguer. Todos os direitos reservados.</p>
+               
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

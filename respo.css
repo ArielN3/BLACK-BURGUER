@@ -1,0 +1,168 @@
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 2px;
+        margin: 6px;
+    }
+
+    .menu h2 {
+        font-size: 1.3em;
+    }
+
+    .menu table {
+        padding: 0 5px;
+    }
+
+    .menu table td {
+        font-size: 0.8em;
+    }
+
+    .menu table td span {
+        font-size: 0.8em;
+    }
+
+    .header h2 {
+        font-size: 1.5em;
+    }
+
+    .header h3 {
+        font-size: 1.2em;
+    }
+
+    #cardapio {
+        padding: 1px;
+    }
+
+    .zap {
+        font-size: 1em;
+    }
+
+    #futterp {
+        font-size: 0.8em;
+    }
+    #preco{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .menu h2 {
+        font-size: 2.9em;
+    }
+
+    .menu table td{
+        font-size: 0.9em;
+    }
+
+    .menu table td span {
+        font-size: 0.9em;
+    }
+
+    .header h2 {
+        font-size: 2.2em;
+    }
+
+    .header h3 {
+        font-size: 1em;
+    }
+
+    #cardapio {
+        padding: 10px;
+    }
+
+    .zap {
+        font-size: 0.9em;
+    }
+
+    #futterp {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .logo-container .logo {
+        max-width: 120px; /* Reduz o tamanho do logo */
+    }
+
+    .dropdown-button img {
+        width: 7px; /* Reduz o tamanho do ícone do menu */
+    }
+
+    .dropdown-menu {
+        top: 50px; /* Ajusta a posição do dropdown */
+        right: 10px; /* Alinha o dropdown à direita */
+    }
+
+    .dropdown-item {
+        padding: 8px 15px; /* Reduz o padding dos itens */
+        font-size: 25px; /* Reduz o tamanho da fonte */
+    }
+}
+
+/* Responsividade para telas muito pequenas (celulares em modo retrato) */
+@media screen and (max-width: 480px) {
+    #header{
+        max-height: 100px;
+    }
+    .logo-container .logo {
+        max-width: 100px; /* Reduz ainda mais o tamanho do logo */
+    }
+
+    .dropdown-button img {
+        width: 10px; /* Reduz o tamanho do ícone do menu */
+    }
+
+    .dropdown-menu {
+        top: 40px; /* Ajusta a posição do dropdown */
+        right: 5px; /* Alinha o dropdown à direita */
+    }
+
+    .dropdown-item {
+        padding: 6px 12px; /* Reduz o padding dos itens */
+        font-size: 20px; /* Reduz o tamanho da fonte */
+    }
+}
+/* Media Queries para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    #especial {
+        font-size: 28px;
+        text-shadow: 3px 2px 3px rgba(255, 0, 0, 0.541);
+    }
+    
+    #espe td {
+        padding: 12px 10px;
+        display: block;
+        text-align: center !important;
+    }
+    
+    .preco {
+        text-align: center !important;
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #especial {
+        font-size: 22px;
+    }
+    
+    #espe td {
+        padding: 10px 8px;
+        font-size: 0.9em;
+    }
+    
+    #numero, .preco {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-sanduiche {
+        max-width: 700px;
+    }
+    
+    #especial {
+        font-size: 35px;
+    }
+}
