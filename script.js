@@ -7,51 +7,144 @@ const menuData = {
                 id: 'x-salada',
                 name: 'X-SALADA',
                 description: 'Pão, hambúrguer, queijo, presunto, tomate e alface',
-                price: 17.99,
+                price: 8.99,
                 image: 'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg'
             },
+           
             {
                 id: 'x-bacon',
                 name: 'X-BACON',
                 description: 'Pão, hambúrguer, queijo, maionese e bacon',
-                price: 20.99,
+                price: 11.00,
                 image: 'https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg'
             },
+
+            
+
             {
                 id: 'x-egg',
                 name: 'X-EGG',
                 description: 'Pão, hambúrguer, queijo, presunto, ovo e maionese',
-                price: 20.99,
+                price: 11.00,
                 image: 'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg'
             },
+           
+
             {
                 id: 'x-tudo',
                 name: 'X-TUDO',
                 description: 'Pão, hambúrguer, queijo, presunto, ovo, milho, salsicha e batata palha',
-                price: 24.99,
+                price: 14.00,
                 image: 'https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg'
             },
+           
+
             {
                 id: 'file-frango',
                 name: 'FILÉ DE FRANGO',
                 description: 'Pão, filé de frango, queijo, bacon, maionese, tomate e alface',
-                price: 24.99,
+                price: 14.00,
                 image: 'https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg'
             },
+            
             {
                 id: 'duplo-bacon',
                 name: 'DUPLO BACON',
                 description: 'Pão, 2 hambúrgueres, queijo, maionese e bacon',
-                price: 24.99,
+                price: 14.00,
                 image: 'https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg'
             },
+           
+
             {
                 id: 'dog-chapa',
                 name: 'DOG NA CHAPA',
                 description: 'Pão, salsicha, queijo, presunto, milho e batata palha',
+                price: 10.00,
+                image: 'https://images.pexels.com/photos/4113464/pexels-photo-4113464.jpeg'
+            },
+            {
+                id: 'quente-no-molho',
+                name: 'Cachorro quente no molho',
+                description: 'Molho caseiro',
+                price:8.00,
+                image: 'https://i.pinimg.com/736x/8b/9e/f8/8b9ef8fb5777e2a50c11635ed0700751.jpg'
+            }
+            
+        ]
+    },
+    trioshamburgueres: {
+        title: 'trios-Hambúrgueres',
+        items: [
+           
+            {
+                id: 'TRIO-x-salada',
+                name: 'TRIO-X-SALADA',
+                description: 'Pão, hambúrguer, queijo, presunto, tomate e alface',
+                price: 17.99,
+                image: 'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg'
+            },
+            
+            {
+                id: 'TRIO-x-bacon',
+                name: 'TRIO-X-BACON',
+                description: 'Pão, hambúrguer, queijo, maionese e bacon',
+                price: 20.99,
+                image: 'https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg'
+            },
+
+            
+            {
+                id: 'TRIO-x-egg',
+                name: 'TRIO-X-EGG',
+                description: 'Pão, hambúrguer, queijo, presunto, ovo e maionese',
+                price: 20.99,
+                image: 'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg'
+            },
+
+            
+            {
+                id: 'TRIO-x-tudo',
+                name: 'TRIO-X-TUDO',
+                description: 'Pão, hambúrguer, queijo, presunto, ovo, milho, salsicha e batata palha',
+                price: 24.99,
+                image: 'https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg'
+            },
+
+           
+            {
+                id: 'TRIO-file-frango',
+                name: 'TRIO-FILÉ DE FRANGO',
+                description: 'Pão, filé de frango, queijo, bacon, maionese, tomate e alface',
+                price: 24.99,
+                image: 'https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg'
+            },
+           
+            {
+                id: 'TRIO-duplo-bacon',
+                name: 'TRIO-DUPLO BACON',
+                description: 'Pão, 2 hambúrgueres, queijo, maionese e bacon',
+                price: 24.99,
+                image: 'https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg'
+            },
+
+            
+            {
+                id: 'TRIO-dog-chapa',
+                name: 'TRIO-DOG NA CHAPA',
+                description: 'Pão, salsicha, queijo, presunto, milho e batata palha',
                 price: 20.00,
                 image: 'https://images.pexels.com/photos/4113464/pexels-photo-4113464.jpeg'
+            },
+
+            {
+                id: 'trio-quente-no-molho',
+                name: 'TRIO-Cachorro quente no molho',
+                description: 'Molho caseiro',
+                price: 8.00,
+                image: 'https://i.pinimg.com/736x/8b/9e/f8/8b9ef8fb5777e2a50c11635ed0700751.jpg'
             }
+            
         ]
     },
     acompanhamentos: {
@@ -77,6 +170,13 @@ const menuData = {
                 description: 'Batatas fritas com cheddar cremoso e bacon crocante',
                 price: 12.99,
                 image: 'https://images.pexels.com/photos/2741461/pexels-photo-2741461.jpeg'
+            },
+            {
+                id: 'Caldo',
+                name: 'Caldos Variados',
+                description: 'Caldo 300ml',
+                price: 7.00,
+                image: 'https://guiadacozinha.com.br/wp-content/uploads/2023/03/tamanho-padrao-gc-15.jpg'
             }
         ]
     },
