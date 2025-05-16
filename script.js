@@ -69,6 +69,13 @@ const menuData = {
                 description: 'Molho caseiro',
                 price:8.00,
                 image: 'https://i.pinimg.com/736x/8b/9e/f8/8b9ef8fb5777e2a50c11635ed0700751.jpg'
+            },
+            {
+                id: 'big-cachorro-quente',
+                name: 'Big Cachorro Quente da casa na chapa',
+                description: 'O2 salsicha, presunto, queijo, cheddar, bacon, milho e batata palha',
+                price:15.00,
+                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3e1pXEOp-EEzoufC7h5qxB27e35XCZ-YQO2nioAkw7zXIzHlt7K0ayaTD2tlSuQ9ZxI4&usqp=CAU '
             }
             
         ]
